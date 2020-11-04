@@ -12,10 +12,13 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
+    
   </head>
+  
   <body>
-    <!-- Image and text -->
+    <!-- Navbar  -->
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
         <img
@@ -33,5 +36,171 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </nav>
+    <!-- Side Nav -->
+    <div class="sidenav">
+      <a href="#"> <img src="./media/home.svg"> <span>Dashboard</span></a>
+      <a href="#"> <img src="./media/contacts.svg"> <span>Contacts</span></a>
+      <a href="#"> <img src="./media/receivables.svg"> <span>Receivables</span> </a>
+      <a href="#"> <img src="./media/payables.svg"> <span>Payables</span></a>
+      <a href="#"> <img src="./media/reporting.svg"> <span>Reporting</span></a>
+      </ul>
+    </div>
+   
+
+    <div class="main container">
+      <div class="row contentPad">
+        <div class="col-sm-12">
+          <h1>Account Summary</h1>
+        </div>
+      </div>
+      <div class="row contentPad">
+        <div class="col-sm-12">
+          <div id="graph" class="card">
+            <p>Insert Graph info here</p>
+          </div>
+        </div>
+        </div>
+ 
+        <div class="row contentPad">
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="row">
+                <div class="col-sm-5">
+                  <h5>12</h5>
+                  <p>Invoices</p>
+                </div>
+                <div class="col-sm-7">
+                  <h5>$8,450.00</h5>
+                </div>
+              </div>
+              <button class="bottomButton btn-info">Get Paid Early > </button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="row">
+                <div class="col-sm-5">
+                  <h5>12</h5>
+                  <p>Invoices</p>
+                </div>
+                <div class="col-sm-7">
+                  <h5>$8,450.00</h5>
+                </div>
+              </div>
+              <button class="bottomButton btn-info">Collect on Invoices > </button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="row">
+                <div class="col-sm-5">
+                  <h5>12</h5>
+                  <p>Invoices</p>
+                </div>
+                <div class="col-sm-7">
+                  <h5>$8,450.00</h5>
+                </div>
+              </div>
+              <button class="bottomButton btn-info">Pay on Expense > </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row contentPad">
+          <div class="col-sm-12">
+            <h2>Recent Transactions</h2>
+          </div>
+        </div>
+        <div class="row contentPad">
+          <div class="col-sm-12">
+            <div class="card">
+            <table class="table table-striped">
+              <thread>
+                <tr>
+                  <p>View transaction from -</p>
+                </tr>
+              </thread>
+              <thead>
+                <tr>
+                  <th scope="col">Customer</th>
+                  <th scope="col">Invoice Number</th>
+                  <th scope="col">Invoice Date</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Due Date</th>
+                  <th scope="col">Balance</th>
+                  <th scope="col">Actions/Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Customer</th>
+                  <td>55555</td>
+                  <td>01/01/2020</td>
+                  <td>Lorem</td>
+                  <td>01/01/2020</td>
+                  <td>$555.55</td>
+                  <td>Carrot Dropdown</td>
+                </tr>
+                <tr>
+                  <th scope="row">Customer</th>
+                  <td>55555</td>
+                  <td>01/01/2020</td>
+                  <td>Lorem</td>
+                  <td>01/01/2020</td>
+                  <td>$555.55</td>
+                  <td>Carrot Dropdown</td>
+                </tr>
+                <tr>
+                  <th scope="row">Customer</th>
+                  <td>55555</td>
+                  <td>01/01/2020</td>
+                  <td>Lorem</td>
+                  <td>01/01/2020</td>
+                  <td>$555.55</td>
+                  <td>Carrot Dropdown</td>
+                </tr>
+                <tr>
+                  <th scope="row">Customer</th>
+                  <td>55555</td>
+                  <td>01/01/2020</td>
+                  <td>Lorem</td>
+                  <td>01/01/2020</td>
+                  <td>$555.55</td>
+                  <td>Carrot Dropdown</td>
+                </tr>
+                <tr>
+                  <th scope="row">Customer</th>
+                  <td>55555</td>
+                  <td>01/01/2020</td>
+                  <td>Lorem</td>
+                  <td>01/01/2020</td>
+                  <td>$555.55</td>
+                  <td>Carrot Dropdown</td>
+                </tr>
+                <tr>
+                  <th scope="row">Customer</th>
+                  <td>55555</td>
+                  <td>01/01/2020</td>
+                  <td>Lorem</td>
+                  <td>01/01/2020</td>
+                  <td>$555.55</td>
+                  <td>Carrot Dropdown</td>
+                </tr>
+                <tr>
+                  <th scope="row">Customer</th>
+                  <td>55555</td>
+                  <td>01/01/2020</td>
+                  <td>Lorem</td>
+                  <td>01/01/2020</td>
+                  <td>$555.55</td>
+                  <td>Carrot Dropdown</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          </div>
+        </div>
+    </div>
+    
   </body>
 </html>
