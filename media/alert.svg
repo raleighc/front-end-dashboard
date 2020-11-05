@@ -12,15 +12,36 @@
     <clipPath id="clip-path-4">
       <path id="Path_783" data-name="Path 783" d="M79-72h27V-96H79Z" fill="#c32526"/>
     </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_788" data-name="Path 788" d="M94-74.514v-2.97A.507.507,0,0,0,93.5-78h-3a.508.508,0,0,0-.5.513v2.972a.508.508,0,0,0,.5.514h3a.506.506,0,0,0,.5-.513Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <path id="Path_787" data-name="Path 787" d="M-602,375H838V-649H-602Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <path id="Path_791" data-name="Path 791" d="M93.969-80.411l.281-8.066a.441.441,0,0,0-.157-.33A.61.61,0,0,0,93.719-89H90.281a.613.613,0,0,0-.374.193.518.518,0,0,0-.157.369l.266,8.031c0,.228.234.4.531.4h2.891a.494.494,0,0,0,.532-.406Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
   </defs>
-  <g id="Group_936" data-name="Group 936" transform="translate(-79 95.459)" clip-path="url(#clip-path)">
-    <g id="Group_935" data-name="Group 935" style="isolation: isolate">
-      <g id="Group_934" data-name="Group 934" clip-path="url(#clip-path-2)">
-        <g id="Group_933" data-name="Group 933" clip-path="url(#clip-path-3)">
-          <g id="Group_932" data-name="Group 932" clip-path="url(#clip-path-4)">
-            <path id="Path_782" data-name="Path 782" d="M74-100.459h36.324V-67H74Z" fill="#c32526"/>
+  <g id="Group_1091" data-name="Group 1091" transform="translate(-548 -1685.541)">
+    <g id="Group_936" data-name="Group 936" transform="translate(469 1781)" clip-path="url(#clip-path)">
+      <g id="Group_935" data-name="Group 935" style="isolation: isolate">
+        <g id="Group_934" data-name="Group 934" clip-path="url(#clip-path-2)">
+          <g id="Group_933" data-name="Group 933" clip-path="url(#clip-path-3)">
+            <g id="Group_932" data-name="Group 932" clip-path="url(#clip-path-4)">
+              <path id="Path_782" data-name="Path 782" d="M74-100.459h36.324V-67H74Z" fill="#c32526"/>
+            </g>
           </g>
         </g>
+      </g>
+    </g>
+    <g id="Group_938" data-name="Group 938" transform="translate(469 1781)" clip-path="url(#clip-path-5)">
+      <g id="Group_937" data-name="Group 937" clip-path="url(#clip-path-6)">
+        <path id="Path_786" data-name="Path 786" d="M85-83H99v14H85Z" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_940" data-name="Group 940" transform="translate(469 1781)" clip-path="url(#clip-path-7)">
+      <g id="Group_939" data-name="Group 939" clip-path="url(#clip-path-6)">
+        <path id="Path_789" data-name="Path 789" d="M84.75-94h14.5v19H84.75Z" fill="#fff"/>
       </g>
     </g>
   </g>

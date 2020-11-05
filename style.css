@@ -32,7 +32,7 @@ body{
 
 .navIcon{
   float: middle;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-top: 14px;
 }
 
@@ -160,8 +160,14 @@ background-color: #004E74;
 
 }
 
+.header-section{
+  background-color: #ffffff;
+}
+
+
 .table-header{
-padding: 20px 10px 10px 10px;
+margin-top:20px;
+margin-left:18px;
 font-weight: bold;
 
 }
@@ -174,7 +180,8 @@ border: none;
 text-align: center;
 font-weight: bold;
 padding: 6px 10px 6px 10px;
-border-radius: 4px;
+border-radius: 3px;
+margin:15px;
 
 
 }
