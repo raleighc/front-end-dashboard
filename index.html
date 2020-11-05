@@ -14,28 +14,47 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
-    
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
   
   <body>
     <!-- Navbar  -->
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
-        <img
-          src="/docs/4.5/assets/brand/bootstrap-solid.svg"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt=""
-          loading="lazy"
-        />
-        Dashboard
-      </a>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+   
+   
+    <div class="row">
+      <div class="col-sm-2 fullwidth">
+        <img id="logo" alt="matrix logo" src="./media/matrix-logo.svg"/>
+      </div>
+      <div class="col-sm-4 fullwidth">
+        <form id="searchForm" class="form-inline" >
+          <input id="searchInput" class="form-control mr-sm-2"  type="search" placeholder="Search transactions..." aria-label="Search">
+        </form>
+      </div>
+      <div class="col-sm-2 fullwidth">
+        <img class="navIcon2" alt="settings gear icon" src="./media/settings.svg"/>
+        <img class="navIcon2" alt="bell icon" src="./media/notification.svg"/>
+      </div>
+      <div class="col-sm-2 fullwidth leftLine">
+        <img class="navIcon" alt="building icon" src="./media/building.svg"/>
+        <span class="navText">JJ's Diner - CLT</span>
+      </div>
+      <div class="col-sm-2 fullwidth leftLine">
+        <img class="navIcon" alt="user icon" src="./media/user.svg"/>
+        <span class="navText">John Doe</span>
+      </div>
+    </div>
+
+
+
+    <!-- <nav class="navbar navbar-dark bg-dark">
+      <img width="100px;" alt="matrix logo" src="./media/matrix-logo.svg"/>
+      <form class="form-inline" >
+        <i class="fas fa-search"></i>
+        <input class="form-control mr-sm-2"  type="search" placeholder="Search transactions..." aria-label="Search">
       </form>
     </nav>
+    </div> -->
+
     <!-- Side Nav -->
     <div class="sidenav">
       <a href="#"> <img src="./media/home.svg"> <span>Dashboard</span></a>
@@ -53,73 +72,82 @@
           <h1>Account Summary</h1>
         </div>
       </div>
+      <br>
       <div class="row contentPad">
         <div class="col-sm-12">
           <div id="graph" class="card">
-            <p>Insert Graph info here</p>
+            <p>stuff</p>
           </div>
         </div>
         </div>
- 
+        <br>
         <div class="row contentPad">
-          <div class="col-sm-3">
-            <div class="card">
+          <div class="col-sm-4">
+            <div id="message-cards" class="card">
               <div class="row">
-                <div class="col-sm-5">
-                  <h5>12</h5>
-                  <p>Invoices</p>
-                </div>
-                <div class="col-sm-7">
-                  <h5>$8,450.00</h5>
+                <div class="col-sm-12">
+                  <p><span class="lg-number">12</span> Invoices | <span class="amount">$8,450.00</span></p>
                 </div>
               </div>
-              <button class="bottomButton btn-info">Get Paid Early > </button>
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <p><img src="./media/money.svg"> &nbsp; Accelerate this amount for $169</p>
+                </div>
+              </div>
+              <button class="bottomButton btn-info">Get Paid Early <i class="fas fa-chevron-right"></i>  </button>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="card">
+          <div class="col-sm-4">
+            <div id="message-cards" class="card">
               <div class="row">
-                <div class="col-sm-5">
-                  <h5>12</h5>
-                  <p>Invoices</p>
-                </div>
-                <div class="col-sm-7">
-                  <h5>$8,450.00</h5>
+                <div class="col-sm-12">
+                  <p><span class="lg-number">12</span> Payments | <span class="amount">$9,858.00</span></p>
                 </div>
               </div>
-              <button class="bottomButton btn-info">Collect on Invoices > </button>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p><img src="./media/alert.svg"> &nbsp; Overdue this month</p>
+                </div>
+              </div>
+              <button class="bottomButton btn-info">Collect on Invoices <i class="fas fa-chevron-right"></i> </button>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="card">
+
+          <div class="col-sm-4">
+            <div id="message-cards" class="card">
               <div class="row">
-                <div class="col-sm-5">
-                  <h5>12</h5>
-                  <p>Invoices</p>
-                </div>
-                <div class="col-sm-7">
-                  <h5>$8,450.00</h5>
+                <div class="col-sm-12">
+                  <p><span class="lg-number">12</span> Expenses | <span class="amount">$5,281.00</span></p>
                 </div>
               </div>
-              <button class="bottomButton btn-info">Pay on Expense > </button>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p><img src="./media/clock.svg"> &nbsp; Due in 7 days</p>
+                </div>
+              </div>
+              <button class="bottomButton btn-info">Pay an Expense <i class="fas fa-chevron-right"></i> </button>
             </div>
           </div>
         </div>
+        <br>
 
         <div class="row contentPad">
           <div class="col-sm-12">
             <h2>Recent Transactions</h2>
           </div>
         </div>
+        <br>
         <div class="row contentPad">
           <div class="col-sm-12">
-            <div class="card">
+            <div id="invoice-table" class="card">
             <table class="table table-striped">
-              <thread>
-                <tr>
-                  <p>View transaction from -</p>
+              <thead>
+                <tr> 
+                  <th class="table-header">View transaction from - <input type="date" id="date" label="date" name="date" placeholder="mm/dd/yyyy"> </th>
+                  <th> <button class="table-buttons">Print</button> <button class="table-buttons">Export</button></th>
                 </tr>
-              </thread>
+              </thead>
               <thead>
                 <tr>
                   <th scope="col">Customer</th>
@@ -139,7 +167,7 @@
                   <td>Lorem</td>
                   <td>01/01/2020</td>
                   <td>$555.55</td>
-                  <td>Carrot Dropdown</td>
+                  <td><img src="./media/expand.svg"></td>
                 </tr>
                 <tr>
                   <th scope="row">Customer</th>
@@ -148,7 +176,7 @@
                   <td>Lorem</td>
                   <td>01/01/2020</td>
                   <td>$555.55</td>
-                  <td>Carrot Dropdown</td>
+                  <td><img src="./media/expand.svg"></td>
                 </tr>
                 <tr>
                   <th scope="row">Customer</th>
@@ -157,7 +185,7 @@
                   <td>Lorem</td>
                   <td>01/01/2020</td>
                   <td>$555.55</td>
-                  <td>Carrot Dropdown</td>
+                  <td><img src="./media/expand.svg"></td>
                 </tr>
                 <tr>
                   <th scope="row">Customer</th>
@@ -166,7 +194,7 @@
                   <td>Lorem</td>
                   <td>01/01/2020</td>
                   <td>$555.55</td>
-                  <td>Carrot Dropdown</td>
+                  <td><img src="./media/expand.svg"></td>
                 </tr>
                 <tr>
                   <th scope="row">Customer</th>
@@ -175,7 +203,7 @@
                   <td>Lorem</td>
                   <td>01/01/2020</td>
                   <td>$555.55</td>
-                  <td>Carrot Dropdown</td>
+                  <td><img src="./media/expand.svg"></td>
                 </tr>
                 <tr>
                   <th scope="row">Customer</th>
@@ -184,7 +212,7 @@
                   <td>Lorem</td>
                   <td>01/01/2020</td>
                   <td>$555.55</td>
-                  <td>Carrot Dropdown</td>
+                  <td><img src="./media/expand.svg"></td>
                 </tr>
                 <tr>
                   <th scope="row">Customer</th>
@@ -193,7 +221,7 @@
                   <td>Lorem</td>
                   <td>01/01/2020</td>
                   <td>$555.55</td>
-                  <td>Carrot Dropdown</td>
+                  <td><img src="./media/expand.svg"></td>
                 </tr>
               </tbody>
             </table>

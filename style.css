@@ -1,85 +1,180 @@
 body{
-    background-color: #f1f1f1;
-    
+  background-color: #f1f1f1;
+  
 }
 
+.fullwidth{
+  width: 100%;
+  height: 60px;
+  background-color: #404041;
+}
+
+#logo{
+ padding-left: 30px;
+  padding-top: 14px;
+  max-width: 150px;
+}
+
+#searchForm{
+   padding-top: 10px;
+}
+
+#searchInput{
+   width: 100% ;
+   
+ }
+
+ .navIcon2{
+  float: right;
+  padding-right: 30px;
+  padding-top: 14px;
+}
+
+.navIcon{
+  float: middle;
+  padding-left: 30px;
+  padding-top: 14px;
+}
+
+.leftLine {
+  border-left: solid 1px;
+  border-color: #ffffff;
+}
+.navText{
+  color: #ffffff;
+  padding-left: 10px;
+  position: relative;
+  bottom: -10px;
+}
+
+
+
 .sidenav {
-  margin-top: 56px;
-    height: 100%;
-    width: 80px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    overflow-x: hidden;
-    padding-top: 50px;
-    font-size: 0px;
-  }
-  
-  .sidenav:hover{
-    width: 250px;
-    font-size:20px;
-  }
+  margin-top: 60px;
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px lightgray;
+  overflow-x: hidden;
+  padding-top: 10px;
+  font-size: 0px;
+}
 
-  .sidenav a {
-    padding: 25px;
-    text-decoration: none;
-    color: #404041;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: Bold;
-  }
-  .sidenav a img{
-    width: 28px;
-    color: #0574b0;
-  }
+.sidenav:hover{
+  width: 250px;
+  font-size:18px;
+}
 
-  .sidenav a span{
-    padding-left: 15px;
+.sidenav a {
+  padding: 25px;
+  text-decoration: none;
+  color: #404041;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: Bold;
+}
+.sidenav a img{
+  width: 28px;
+  color: #0574b0;
+}
 
-  }
-  
-  .sidenav a:hover {
-    color: #0574b0;
+.sidenav a span{
+  padding-left: 15px;
 
-  }
+}
 
-  .main {
-    margin-left: 80px; 
-    padding: 0px 10px;
-  }
+.sidenav a:hover {
+  color: #0574b0;
 
-  h1 {
-      color: #404041;
-      font-family: 'Roboto', sans-serif;
-      font-weight: Bold;
-      font-size: 28px
+}
 
-  }
+.main {
+  margin-left: 80px; 
+  margin-top: 20px;
+  padding: 0px 10px;
+}
 
-  h2 {
+h1 {
     color: #404041;
     font-family: 'Roboto', sans-serif;
     font-weight: Bold;
-    font-size: 26px
+    font-size: 28px
+
+}
+
+h2 {
+  color: #404041;
+  font-family: 'Roboto', sans-serif;
+  font-weight: Bold;
+  font-size: 26px
 
 }
 
 .card{
-  margin: auto;
-  
-  box-shadow: 0px 0px 5px lightgray;
-  
+margin: auto;
+box-shadow: 0px 0px 5px lightgray;
+font-size: 16px;
+
 }
 
+#message-cards {
+text-align: center;
+padding-top:10px;
+}
+#message-cards:hover{
+box-shadow: 0px 0px 5px darkgray;
+}
+
+
 .contentPad{
-  margin-left: 5px;
+margin-left: 5px;
+}
+
+.lg-number{
+font-size: 30px;
+
+}
+
+.amount{
+font-size: 22px;
+font-weight: bold;
 }
 
 .bottomButton{
-  width: 100%;
-  border: none;
-  text-align: center;
-  font-size: 16px;
+width: 100%;
+border: none;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+background-color: #0574b0;
+padding:10px;
+border-radius: 0px 0px 4px 4px;
+}
+
+.bottomButton:hover{
+background-color: #004E74;
+
+}
+
+.table-header{
+padding: 20px 10px 10px 10px;
+font-weight: bold;
+
+}
+
+.table-buttons{
+background-color: #0574b0;
+color: white;
+font-size: 16px;
+border: none;
+text-align: center;
+font-weight: bold;
+padding: 6px 10px 6px 10px;
+border-radius: 4px;
+
+
 }
